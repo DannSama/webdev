@@ -1,64 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head><title>assesment</title>
-    <link rel="stylesheet" href="back.css">
+    <head><title>MyWeb</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .container-fluid{
+            height: 90px;
+            background-color: red;
+        }
+        #tokped{
+            margin-top: 10px;
+            width: auto;
+            height: 70px;
+        }
+        #jeta, #mj{
+            height: 500px;
+            width: 940px;
+            align-items: center;
+        }
+        .card{
+            margin: 20px;
+            height: 300px;
+            width: 200px;
+        }
+        
+    </style>
 </head>
 <body>
-    <div class="top">
-        <img src="photos/insta.png" alt="insta" class="sosmed">
-        <img src="photos/fb.png" alt="fb" class="sosmed">
-        <img src="photos/insta.png" alt="insta" class="sosmed">
-        <button id="butt">login/daftar</button>
+    <div class="container-fluid">
+        <button type="button" class="btn btn-link"><img src="photos/bukalapak.png" alt="tokopedia" id="tokped"></button>
     </div>
-    <div>
-        <header>
-            <img src="photos/logo.png" alt="logo" id="logo">
-            <div class="nav">
-            <a href="#" class="navD">Home</a>
-            <a href="#" class="navD">Gallery</a>
-            <a href="about.html" class="navD">About us</a>
-            <a href="#" class="navD">Contact us</a>
-            </div>
-        </header>
-    </div>
+    
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
 
-        <div>
-            <img src="photos/bg.jpg" alt="yg besar" class="besar">
-        </div>
+          <div class="container">
+            <img src="photos/jeta.jpg" alt="myjeta" id="jeta">
+          </div>
 
-        <div>
-            <h1 class="pr">PRODUK KAMI</h1>
-            <div class="dessert">
-                <img src="photos/aisucara.jpg" alt="aisucara" class="des">
-                <h3>ice cream caramel</h3>
-                <button class="det">details</details></button>
-            </div>
-            <div class="dessert">
-                <img src="photos/cupcake.jpg" alt="kapukeeki" class="des">
-                <h3>cupcake</h3>
-                <button class="det">details</button>
-            </div>
-            <div class="dessert">
-                <img src="photos/cookie.jpg" alt="kuki" class="des">
-                <h3>cookie</h3>
-                <button class="det">details</button>
-            </div>
-            <div class="dessert">
-                <img src="photos/donut.jpg" alt="donat" class="des">
-                <h3>glazier</h3>
-                <button class="det">details</button>
-            </div>
-        </div>
+          <div class="card-group">
+            <div class="card" style="width: 18rem;">
+                <img src="photos/aisucara.jpg" class="card-img-top" alt="aisucara">
+                <div class="card-body">
+                  <h5 class="card-title">Caramel Ice Cream</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">details</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="photos/cookie.jpg" class="card-img-top" alt="kukis">
+                <div class="card-body">
+                  <h5 class="card-title">kukis</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="photos/donut.jpg" class="card-img-top" alt="dounat">
+                <div class="card-body">
+                  <h5 class="card-title">dounat</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
 
-<div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<div class="payment">
-    <h3>metode pembayaran</h3>
-    <img src="photos/paypal.png" alt="pepol" class="sosmed">
-</div>
-</div>
-<footer>
-    <p>COPYRIGHT@2110130016_ATHAYA ABDAN HANIF 2022</p>
-</footer>
 </body>
 </html>
