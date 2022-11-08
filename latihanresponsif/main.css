@@ -1,0 +1,17 @@
+#atas{
+    background-color: red;
+}
+#aside{
+    background-color: lightblue;
+    
+}
+#rightside{
+    background-color: aqua;
+}
+#bottom{
+    background-color: aqua;
+}
+.row{
+    padding: 10px;
+    border: 5px solid white;
+}

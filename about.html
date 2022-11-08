@@ -1,27 +1,88 @@
 <!DOCTYPE html>
 <html> 
     <head><title>assesment1</title>
-        <link rel="stylesheet" href="back.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="test.css">
+        <style>
+             #top{
+            height: 90px;
+            background-color: red;
+        }
+        #tokped{
+            margin-top: 10px;
+            width: auto;
+            height: 70px;
+        }
+        #jeta, #mj{
+            height: 500px;
+            width: 940px;
+            align-items: center;
+        }
+        #bottom{
+          height: 100px;
+          background-color: rgba(170, 20, 20, 0.895);
+
+        }
+        #fuut{
+            height: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            background-color: gray;
+            text-align: center;
+        }
+        </style>
     </head>
     <body>
-        <div class="top">
-            <img src="photos/insta.png" alt="insta" class="sosmed">
-            <img src="photos/fb.png" alt="fb" class="sosmed">
-            <img src="photos/insta.png" alt="insta" class="sosmed">
-            <button id="butt">login/daftar</button>
+        <div class="container-fluid" id="top">
+            <button type="button" class="btn btn-link"><img src="photos/bukalapak.png" alt="tokopedia" id="tokped"></button>
         </div>
-        <div>
-            <img src="photos/baker.jpg" alt="baker" class="besar">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id animi eligendi saepe eum veritatis repudiandae ratione suscipit quos voluptatum </p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia rerum a, ex obcaecati debitis aperiam vitae! Asperiores ipsa voluptatum hic accusantium, quaerat assumenda rerum in impedit maiores unde laboriosam aperiam?</p>
-        </div>
-        <div class="payment">
-            <h3>metode pembayaran</h3>
-            <img src="photos/paypal.png" alt="pepol" class="sosmed">
-        </div>
-        </div>
+        
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="about.html">about us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="main.html">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                </ul>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="photos/jeta.jpg" alt="jeta" width="100%" height="500">
+                <div class="carousel-caption">
+                <h3>jeta</h3>
+                <p>We had such a great time in LA!</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="photos/power.jpg" alt="Chicago" width="100%" height="500">
+                <div class="carousel-caption">
+                <h3>pawaa!</h3>
+                <p>Thank you, Chicago!</p>
+                </div>
+                </div>
+                </div>
+                <div class="container">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quos quae, officia asperiores quia deleniti voluptas in voluptatem amet dignissimos nostrum, excepturi quaerat ullam fugit, sed pariatur et soluta recusandae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, eum nisi, saepe excepturi quidem voluptatibus repudiandae nam iusto voluptatum ipsam quisquam? Mollitia consectetur odio iure hic magnam molestias accusantium asperiores? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex delectus nobis vero quisquam, fugit fugiat. Nam libero quos voluptate illum vel accusantium rem et, impedit dolores. Excepturi optio a praesentium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, sit. Suscipit eveniet laborum at explicabo aliquam! Voluptas accusantium, maxime nisi labore ratione eum nemo rem vitae officiis excepturi possimus repellat!</p>
+                </div>
+        <div class="container-fluid" id="bottom">
+            <h5>pembayaran : </h5>
+            <img src="photos/paypal.png" alt="paypal" height="20px" width="20px">
+          </div>
         <footer>
+            <div class="container-fluid" id="fuut">
             <p>COPYRIGHT@2110130016_ATHAYA ABDAN HANIF 2022</p>
+            </div>
         </footer>
     </body>
 </html>
